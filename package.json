@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "ecmascript": "^1.0.0",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
     "typescript": "^5.2.2"
   }
 }
