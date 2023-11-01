@@ -6,7 +6,7 @@ export function serialize(_target: any, context: Context): void {
   metadata["propNames"].push(context.name);
 }
 
-export function jsonify(instance: object) {
+export function jsonify(instance: object): string {
   const metadata = instance.constructor[Symbol.metadata];
   const propNames = metadata?.["propNames"] as string[];
 
